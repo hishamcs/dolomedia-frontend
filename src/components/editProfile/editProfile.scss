@@ -1,0 +1,51 @@
+.editProfile {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    .headd{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            background-color: aliceblue;
+            cursor: pointer;
+        }
+
+        
+    }
+
+    .formCont{
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        p {
+            text-align: center;
+            padding-top: 5px;
+            color: rgb(16, 17, 17);
+            font-size: medium;
+            font-weight: 500;
+            cursor: pointer;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
